@@ -404,10 +404,19 @@
       margin-right: auto; } }
 
 @media (max-width: 575px) {
-  .numbers .achive img {
-    width: 40%; }
-  .numbers .achive .num {
-    width: 60%; } }
+  .numbers .achive {
+    padding: 15px 0; }
+    .numbers .achive img {
+      width: 40%;
+      margin: auto; }
+    .numbers .achive .num {
+      width: 100%;
+      text-align: center;
+      margin-top: 30px; }
+      .numbers .achive .num .text {
+        margin-left: 0; }
+        .numbers .achive .num .text::before {
+          display: none; } }
 
 .slide {
   background-color: #26253f;
@@ -702,6 +711,18 @@
       padding: 0 0 0 10px;
       width: 20%; } }
 
+@media (max-width: 450px) {
+  .Games-Partner .head-parg h2 {
+    font-size: 20px; }
+  .Games-Partner .head-parg p {
+    margin: 0 10 !important;
+    font-size: 12px; }
+  .Games-Partner .companys .imgs {
+    margin: auto; }
+    .Games-Partner .companys .imgs img {
+      padding: 0 0 0 5px;
+      width: 50%; } }
+
 .jackpot {
   padding-top: 80px;
   padding-bottom: 60px;
@@ -840,10 +861,13 @@
     margin-right: 0%; } }
 
 @media (max-width: 575px) {
-  .about-our-work .info-box .img {
-    width: 20%; }
-  .about-our-work .info-box .text {
-    width: 80%; } }
+  .about-our-work .info-box {
+    text-align: center; }
+    .about-our-work .info-box .img {
+      width: 30%;
+      margin: auto auto 30px auto; }
+    .about-our-work .info-box .text {
+      width: 100%; } }
 
 .get-started-3 {
   background-image: url("../image/homes/get-started/s1.png");
@@ -999,6 +1023,14 @@
     .Games-Details .Games-Controller-System .text {
       margin-bottom: 40px; } }
 
+@media (max-width: 575px) {
+  .Games-Details .Games-Operating-System .boxses .box .unmber {
+    width: 15%;
+    margin: auto auto 20px; }
+  .Games-Details .Games-Operating-System .boxses .box .info {
+    width: 100%;
+    text-align: center; } }
+
 .Win-Reward {
   background-color: #141124;
   color: #ffffff;
@@ -1151,7 +1183,8 @@
     margin: auto; }
     .Lottery-Numbr .boxses .box {
       width: 100%;
-      margin-bottom: 4%; }
+      margin-bottom: 4%;
+      padding-top: 60px; }
     .Lottery-Numbr .boxses .box-marg {
       margin-right: 0%; } }
 
@@ -1592,7 +1625,8 @@
   color: #ffffff;
   background-color: #141124;
   text-align: center;
-  padding: 100px 0; }
+  padding: 100px 0;
+  overflow: hidden; }
   .Error h2 {
     font-weight: bold; }
   .Error h1 {
@@ -1610,6 +1644,18 @@
   .Error a {
     text-decoration: none;
     padding: 12px 20px; }
+
+@media (max-width: 575px) {
+  .Error h1 {
+    font-size: 180px; }
+  .Error p {
+    font-size: 22px; } }
+
+@media (max-width: 350px) {
+  .Error h1 {
+    font-size: 120px; }
+  .Error p {
+    font-size: 18px; } }
 
 .Terms-Conditions {
   background-color: #141124;
@@ -2135,6 +2181,28 @@
   .blog-Details .side-bar .side-right .Recent .img-text .text {
     width: 70%; } }
 
+@media (max-width: 575px) {
+  .blog-Details .side-bar .side-left .Related-Post .Posts .img-text .img {
+    width: 100%;
+    margin: auto auto 20px; }
+    .blog-Details .side-bar .side-left .Related-Post .Posts .img-text .img img {
+      width: 100%; }
+  .blog-Details .side-bar .side-left .Related-Post .Posts .img-text .text {
+    width: 100%;
+    padding: 0; }
+  .blog-Details .side-bar .side-left .comments .user .img {
+    margin-top: 10px; }
+  .blog-Details .side-bar .side-left .comments .user .text {
+    margin-top: 0; }
+  .blog-Details .side-bar .side-left .Reply form .f-name {
+    width: 100%;
+    margin-right: 0; }
+  .blog-Details .side-bar .side-left .Reply form .l-name {
+    width: 100%;
+    margin-right: 0; }
+  .blog-Details .side-bar .side-left .Reply form .email {
+    width: 100%; } }
+
 .contact {
   background-color: #141124;
   padding: 100px 0; }
@@ -2337,7 +2405,13 @@
 
 @media (max-width: 575px) {
   .price .boxses {
-    margin-right: 0px; } }
+    margin-right: 0px; }
+    .price .boxses .chips .img {
+      width: 30%;
+      margin: auto auto 20px; }
+    .price .boxses .chips .text {
+      width: 100%;
+      text-align: center; } }
 
 .how-to-start {
   padding: 100px 0;

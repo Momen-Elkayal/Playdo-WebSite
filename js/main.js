@@ -73,13 +73,3 @@ $(".icon4").click(function () {
   $(".icon-right4").toggleClass("rotate");
   $(".li4").toggleClass("backgrlink");
 });
-
-/** Nice Scroll For Body */
-$("body").niceScroll({
-  cursorcolor: "#d5057f",
-  cursorwidth: "5px",
-  background: "#14112430",
-  cursorborder: "1px solid #d5057f",
-  cursorborderradius: 0,
-  zindex: 1000000000,
-});
